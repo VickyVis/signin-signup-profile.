@@ -1,0 +1,74 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6)
+}
+.form {
+    position: absolute;
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #ffffff;
+}
+.container .title {
+        font-size: 25px;
+        font-weight: 600;
+        position: relative;
+}
+.container .left{
+    width: 50%;
+    padding: 5px 25px;
+}
+.container .left img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.container .left h4{
+    margin-bottom: 6px;
+}
+.container .left p{
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.container .form .right {
+    width: 50%;
+    padding: 30px 25px;
+  
+}
+.container .right h5 {
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight:500;
+}
+
+.container .right p {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.container .right .experience{
+    padding-bottom:10px;
+}
+
